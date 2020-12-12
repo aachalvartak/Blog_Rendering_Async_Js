@@ -7,7 +7,8 @@
 ### Features
   - Fully Reponsive
   - Fetches data from a JSON data source through asynchronous JavaScript fetching mechanisms
-  -  Upon clicking the related link, details of the new blog is displayed on the page
+    > async() , await
+  -  Upon clicking the related link, details of the new blog will be rendered on the page
   
 ### Js Concepts Used
   - functions
@@ -23,7 +24,7 @@
 
 ### Deployment
   - Hosted using GitHub Pages
-  - click here () for live Demo
+  - click here (https://aachalv.github.io/Blog_Rendering_Async_Js/) for live Demo
       > To run the project locally clone it and run the index.html file using live server 
       
  
