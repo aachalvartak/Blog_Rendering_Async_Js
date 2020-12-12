@@ -7,6 +7,7 @@ window.onload = () => {
   const blogDiv = document.getElementById("root");
 
   const h2 = document.createElement("h2");
+  h2.classList.add("myBlog");
   h2.innerHTML = "My Blog";
   blogDiv.appendChild(h2);
 

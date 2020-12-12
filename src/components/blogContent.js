@@ -15,8 +15,8 @@ export const blogContent = (title, author, text) => {
   const div = document.createElement("div");
   div.classList.add("blog-content");
 
-  const h1 = document.createElement("h1");
-  h1.innerHTML = title;
+  const h2 = document.createElement("h2");
+  h2.innerHTML = title;
 
   const h3 = document.createElement("h3");
   h3.innerHTML = `Author : ` + author;
@@ -24,7 +24,7 @@ export const blogContent = (title, author, text) => {
   const p = document.createElement("p");
   p.innerHTML = text;
 
-  div.appendChild(h1);
+  div.appendChild(h2);
   div.appendChild(h3);
   div.appendChild(p);
 

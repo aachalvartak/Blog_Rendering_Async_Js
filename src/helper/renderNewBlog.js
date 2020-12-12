@@ -16,6 +16,7 @@ export const renderNewBlog = (blogId) => {
   rootDiv.innerHTML = "";
 
   const h2 = document.createElement("h2");
+  h2.classList.add("myBlog");
   h2.innerHTML = "My Blog";
   rootDiv.appendChild(h2);
 
