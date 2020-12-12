@@ -13,6 +13,7 @@ export const renderNewBlog = (blogId) => {
   const blogObject = findBlogById(blogId)[0];
   console.log("PRINT", blogObject);
   const rootDiv = document.getElementById("root");
+  //clear content from root div
   rootDiv.innerHTML = "";
 
   const h2 = document.createElement("h2");
@@ -26,6 +27,7 @@ export const renderNewBlog = (blogId) => {
   );
 
   const asideDiv = document.getElementById("related-links");
+  //clear content from root div and aside div
   asideDiv.innerHTML = "";
   asideDiv.appendChild(relatedLinks(blogObject.links));
 };

@@ -1,11 +1,3 @@
-// <div id="related-links">
-//     <ul>
-//         <li>Related Links</li>
-//         <li>Related Links</li>
-//         <li>Related Links</li>
-//         <li>Related Links</li>
-//     </ul>
-// </div>
 import { renderNewBlog } from "../helper/renderNewBlog.js";
 
 export const relatedLinks = (links) => {

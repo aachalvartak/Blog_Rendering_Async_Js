@@ -14,9 +14,6 @@ window.onload = () => {
   const blogImageDiv = blogImage(blogs[0].imageUrl);
   console.log(blogImageDiv);
   blogDiv.appendChild(blogImageDiv);
-  // blogDiv.appendChild(
-  // blogImage("https://cdn.fs.teachablecdn.com/JGo66OJORkWTyjoNbVxQ")
-  // );
   blogDiv.appendChild(
     blogContent(blogs[0].title, blogs[0].author, blogs[0].content)
   );
@@ -24,5 +21,3 @@ window.onload = () => {
   const asideDiv = document.getElementById("related-links");
   asideDiv.appendChild(relatedLinks(blogs[0].links));
 };
-
-//clear content from root div and aside div
