@@ -14,6 +14,11 @@ export const renderNewBlog = (blogId) => {
   console.log("PRINT", blogObject);
   const rootDiv = document.getElementById("root");
   rootDiv.innerHTML = "";
+
+  const h2 = document.createElement("h2");
+  h2.innerHTML = "My Blog";
+  rootDiv.appendChild(h2);
+
   rootDiv.appendChild(blogImage(blogObject.imageUrl));
   rootDiv.appendChild(
     blogContent(blogObject.title, blogObject.author, blogObject.content)

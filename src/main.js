@@ -5,6 +5,11 @@ import { relatedLinks } from "./components/relatedLinks.js";
 window.onload = () => {
   //Start DOM MAnipulation here
   const blogDiv = document.getElementById("root");
+
+  const h2 = document.createElement("h2");
+  h2.innerHTML = "My Blog";
+  blogDiv.appendChild(h2);
+
   const blogImageDiv = blogImage(blogs[0].imageUrl);
   console.log(blogImageDiv);
   blogDiv.appendChild(blogImageDiv);
