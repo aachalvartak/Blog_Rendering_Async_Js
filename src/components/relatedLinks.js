@@ -11,7 +11,7 @@ import { renderNewBlog } from "../helper/renderNewBlog.js";
 export const relatedLinks = (links) => {
   const ul = document.createElement("ul");
   let h2 = document.createElement("h2");
-  h2.innerHTML = "Related Links";
+  h2.innerHTML = "Related Links :";
   ul.appendChild(h2);
   links.forEach((link) => {
     let li = document.createElement("li");
