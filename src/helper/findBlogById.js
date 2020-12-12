@@ -1,8 +1,10 @@
-import { blogs } from "../data.js";
+//import { data } from "../data.js";
 
-export const findBlogById = (blogId) => {
-    const blogObject = blogs.filter((blog) => {
-        return blog.id == blogId;
-    });
-    return blogObject;
-}
+// export const findBlogById = async (blogId) => {
+//   let blogs = await data;
+//   let targetBlog = blogs.filter((blog) => {
+// return blog.id == blogId;
+//   });
+//   console.log(targetBlog[0]);
+//   return targetBlog[0];
+// };

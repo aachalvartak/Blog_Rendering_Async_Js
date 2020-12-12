@@ -4,14 +4,19 @@
 //      render blog Content
 //3. Inside aside div
 //      render links
-import { findBlogById } from "./findBlogById.js";
+//import { findBlogById } from "./findBlogById.js";
+import { data } from "../data.js";
 import { blogImage } from "../components/blogImage.js";
 import { blogContent } from "../components/blogContent.js";
 import { relatedLinks } from "../components/relatedLinks.js";
 
-export const renderNewBlog = (blogId) => {
-  const blogObject = findBlogById(blogId)[0];
-  console.log("PRINT", blogObject);
+export const renderNewBlog = async (blogId) => {
+  let blogs = await data;
+  let targetBlog = blogs.filter((blog) => {
+    return blog.id == blogId;
+  });
+  const blogObject = targetBlog[0];
+
   const rootDiv = document.getElementById("root");
   //clear content from root div
   rootDiv.innerHTML = "";
