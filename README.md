@@ -24,7 +24,7 @@
 
 ### Deployment
   - Hosted using GitHub Pages
-  - click here (https://aachalv.github.io/Blog_Rendering_Async_Js/) for live Demo
+  - click here (https://aachalvartak.github.io/Blog_Rendering_Async_Js/) for live Demo
       > To run the project locally clone it and run the index.html file using live server 
       
  
